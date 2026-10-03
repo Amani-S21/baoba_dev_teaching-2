@@ -1,0 +1,10 @@
+HTML = HyperText Markup Language en francais veut dire Language de balisage d'hypertexte
+HTML n'est pas un language de programmation
+def : HTML est un language de balisage qui nous permet de structurer une page Web
+balise : est un mot cle ecrit entre les signes <> et donc ca indique au navigateur le role d'un 
+element de la page
+ex : <p>Bonjour</p> 
+     <h1>Bonjour</h1>
+     <img src="monprofil.png" alt="mon image" > 
+     <br>
+     <hr>

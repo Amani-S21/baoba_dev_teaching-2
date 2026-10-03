@@ -1,0 +1,7 @@
+Creer un dossier intitule "EXERCICE"
+ensuite vous y creer un ficher index.html 
+puis dans ce fichier vous aller y mettre la structure complete d'une page html
+et puis dans heade vous allez y mettre l'encodage des textes, l'adaptgation de l'ecran sur 
+differentes tailles des ecarns, la description de la page, les mots cles de la page, votre nom 
+comme auteur et createur de la page, mettre aussi le titre de la page et vous ajouter une image
+comme icone de la page
