@@ -107,12 +107,12 @@
   <h2>MON TUTOTIEL DE YOUTUBE</h2>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/p6uF-p_x94k?si=r2s3LvJt7TAolrTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-  <h2>MA MUSIQUE AUDIO</h2>
+  <!-- <h2>MA MUSIQUE AUDIO</h2>
   <audio controls>
     <source src="./MES VIDEOS/VIDEO DESKTOP.mp4" type="audio/mpeg">
     Votre navigateur ne supporte pas la lecture des fichiers audio.
-  </audio>
-  <hr>
+  </audio> -->
+  <!-- <hr>
   <h2>LE TABLEAU</h2>
   <table border="1">
     <caption>Tableau des informations</caption>
@@ -122,7 +122,7 @@
       <th>AGE</th>
     </tr>
     <tr>
-      <td>01</td>
+      <td colspan="2">01</td>
       <td colspan="2">JULIEN</td>
       <td>25</td>
     </tr>
@@ -136,6 +136,96 @@
       <td> MARIE</td>
       <td>28</td>
     </tr>
-  </table>
+  </table>-->
+  <h2>LE FORMULAIRE</h2>
+  <!-- <form action="traitement.py">
+
+  </form> -->
+  <!-- <form method="get">
+    https://monsite.com?nom=julien
+  </form> -->
+  <!-- <form method="post">
+
+  </form> -->
+  <form>
+    <label for="nom">Nom : </label>
+    <input type="text" id="nom" placeholder="Votre nom ici ..." required> <br><br>
+    <label for="post">PostNom :</label>
+    <input type="text" id="post" placeholder="Votre second name" required> <br><br>
+    <label for="mail">E-mail</label>
+    <input type="email" id="mail" placeholder="vous@example.com" required> <br><br>
+    <label for="pass">Mot de Passe</label>
+    <input type="password" placeholder="mot de passe" required> <br><br>
+    <label for="">Date Naissance</label> 
+    <input type="date"> <br><br>
+    <label for="">Telephone</label>
+    <input type="tel" placeholder="+243 000 000 000"> <br><br>
+    <label for="">Age</label>
+    <input type="number" placeholder="votre age"> <br><br>
+    <label for="">Heure</label>
+    <input type="time"><br><br>
+    <label>Photo</label>
+    <input type="file"><br><br>
+    <label> Sexe :
+      <input type="radio" name="Sexe" value="M">Masculin
+    </label>
+    <label>
+      <input type="radio" name="Sexe" value="F" checked> Feminin 
+    </label><br><br>
+    <label>
+      <input type="checkbox" name="competences" value="html">HTML
+    </label><br>
+    <label>
+      <input type="checkbox">CSS
+    </label><br>
+    <label>
+      <input type="checkbox">JAVASCRIPT
+    </label><br>
+    <label>
+      <input type="checkbox">PYTHON
+    </label>
+    <label>
+      <input type="checkbox">REACT
+    </label>
+    <label>
+      <input type="checkbox">DATA ANALYSE
+    </label> <br><br>
+    <label for="">Nationalite :</label>
+    <!-- <select name="nationalite" id="nationalite" multiple></select> -->
+    <select name="nationalite" id="nationalite" disabled>
+      <option value="congolais">Congolaise</option>
+      <option value="burundais">Burundais</option>
+      <option value="rwandais">Rwandais</option>
+      <option value="canadien">Canadien</option>
+      <option value="congolais">Ougandais</option>
+      <option value="burundais">Europeen</option>
+      <option value="rwandais">Portugais</option>
+      <option value="canadien">Brezilien</option>
+    </select> <br><br>
+    <label for="">Ville d'origine :</label>
+    <select name="" id="">
+      <optgroup label="Nord-Kivu">
+        <option value="goma">Goma</option>
+        <option>Beni</option>
+        <option>Bunia</option>
+      </optgroup>
+      <optgroup label="Sud-Kivu">
+        <option >Bukavu</option>
+        <option value="uvira">Uvira</option>
+        <option>Essence</option>
+      </optgroup>
+      <optgroup label="Tanganyika">
+        <option>Kalemie</option>
+        <option>Passons</option>
+        <option>Sui</option>
+      </optgroup>
+    </select><br><br>
+    <label>Message :</label>
+    <textarea name="message" id="Message" rows="4" cols="40" placeholder="Entrer votre message ici ..."></textarea><br><br>
+    <input type="submit">
+    <button type="submit">ENVOYER</button>
+    <button type="reset">REINITIALISER</button>
+    <button type="button" disabled>RIEN FAIRE</button>
+  </form>
   </body>
 </html>
