@@ -1,0 +1,36 @@
+CSS = Cascading Style Sheets qui veut dire en francais Feuilles de style en cascades
+def : Le CSS est un language qui sert a mettre en forme et styliser les contenus html
+il pertet de modifier l'apparence d'une page web en appliquand des tyles tesl que : les coulueurs, tailles de texte, les marges, les animations ainsi de suite
+on peut dire que le HTML construit la structure de la page tandisque le CSS la rend belle et agreable a regarder
+
+pourquoi utiliser le CSS
+Sans CSS, une page HTML est tres simple et peu attrayante
+le CSS permet de donner une belle apparence aux pages web, ameliorer l'experience utilisateur, orgnaiser les elemenst de la page, adapter le site aux ordinateurs, telephones, tablettes
+
+Les avantages du CSS
+- Separe le contenu HTML de la presentation CSS
+- reduit la repetition du code
+- Facilite la maintenance des pages web
+- Permet de modifier rapiedement l'apparence de plusieurs pages
+- ameliore les performances du site
+- permet de creer des sites modernes et responsives
+
+LES VERSIONS DU CSS
+CSS1 : permiere version publiee en 1996, elle intoduit les premieres reg;les de mise en forme
+
+CSS2 publiee en 1998, ajoute de nouvelle fnctionnalite comme le positionnement des elements 
+
+CSS3: la version moderne du CSS
+
+Fonctionnment du CSS
+Le navigateur suit generalement ces etapes :
+- lit le fichier HTML
+- Il trouve les balises html
+- lit les regles CSS
+- il applique les styles aux elemest HTML
+- il affiche la page web avec sa mise en forme
+
+3 FACONS D'INTEGRER LES REGLES CSS
+- CSS en ligne
+- Css interne
+- Css externe
