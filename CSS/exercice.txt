@@ -1,0 +1,19 @@
+Créez une page contenant :
+
+Un titre avec un id
+
+Deux paragraphes avec la même class
+
+Une liste avec plusieurs éléments
+
+Des champs de formulaire avec différents attributs
+
+Appliquez les styles suivants :
+
+Utilisez * pour changer la police générale
+
+Utilisez un id pour styliser le titre
+
+Utilisez une class pour colorer les paragraphes
+
+Utilisez un sélecteur d'attribut pour styliser les champs texte
