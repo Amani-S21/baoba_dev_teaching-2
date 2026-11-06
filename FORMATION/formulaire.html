@@ -29,13 +29,13 @@
     </form> -->
     <form>
         <label for="nom">Nom : </label>
-        <input type="text" id="nom" name="nom">
+        <input type="text" id="nom" name="nom" required>
         <br><br>
         <label for="postnom">Post Nom : </label>
-        <input type="text" id="postnom" name="postnom">
+        <input type="text" id="postnom" name="postnom" required>
         <br><br>
         <label for="prenom">Prenom : </label>
-        <input type="text" id="prenom" name="prenom">
+        <input type="text" id="prenom" name="prenom" required>
         <br><br>
         <label for="email">E-mail : </label>
         <input type="email" id="email" name="email">
@@ -47,7 +47,7 @@
         <input type="tel" id="telephone" name="telephone">
         <br><br>
         <label for="password">Mot de passe : </label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" disabled>
         <br><br>
         <label for="date">Date de naissance : </label>
         <input type="date" id="date" name="date">
@@ -88,7 +88,36 @@
         </label>
         <br><br>
         <label for="message">Message : </label>
-        <textarea id="message" name="message" rows="6" cols="40"></textarea>
+        <textarea id="message" name="message" rows="6" cols="40" placeholder="Entrer votre message ici .."></textarea>
+        <br><br>
+        <label>Nationalite :</label>
+        <!-- <select multiple> -->
+        <select disabled>
+            <option value="ougandais">Ougandais</option>
+            <option value="congolias">Congolais</option>
+            <option value="rwandais" selected>Rwandais</option>
+            <option value="camerounais">Camerounais</option>
+        </select>
+        <br><br>
+        <label>Ville d'origine : </label>
+        <select>
+            <optgroup label="Province du Nord-Kivu">
+                <option>Goma</option>
+                <option>Beni</option>
+                <option>Bunia</option>
+                <option>Butembo</option>
+            </optgroup>
+            <optgroup label="Province du Sud-Kivu">
+                <option>Bukavu</option>
+                <option>Uvira</option>
+                <option>Kalemie</option>
+            </optgroup>
+        </select>
+        <br></br>
+        <input type="submit" value="SOUMETTRE">
+        <button type="submit">ENVOYER</button>
+        <button type="reset">REINITIALISER</button>
+        <button type="button">RIEN FAIRE</button>
     </form>
 </body>
 </html>
