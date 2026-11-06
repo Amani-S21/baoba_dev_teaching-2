@@ -47,7 +47,7 @@ h2 {
 p {
     color: blue
 } */
- h1, h2, p {
+ /* h1, h2, p {
     color:blue
  }
 
@@ -61,4 +61,53 @@ p {
 
  input[type="text"] {
     background-color: lightblue;
+ } */
+
+ h1 {
+    /* color: blue; */
+    /* color: #ff0000;
+    color: #000000;
+    color: #ffffff;
+    color: #0000ff; */
+    color: rgb(0, 0, 255);
+    color: hsl(0, 100%, 50%);
+ }
+
+ /* p {
+    background-color: rgba(255,0,0,0.5);
+ } */
+
+ element {
+    background-image: url("image.jpg");
+ }
+
+ body{
+    /* background-image: url("./../images/logo\ facebook.png");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-size: auto;
+    background-size: cover;
+    background-size: contain;
+    background-position: bottom; */
+
+    background: blue url("./../images/logo\ facebook.png") no-repeat center/cover;
+ }
+
+ /* p {
+    /* background: linear-gradient(to right, red, blue);
+    background: radial-gradient(red, yellow);
+    font-size: 80px;
+ } */
+
+ .parent {
+    width: 800px;
+    background-color: blueviolet;
+    font-size: 80px;
+ }
+
+ .enfant {
+    width: 50%;
+    background-color: bisque;
+    font-size: 2em;
  }
