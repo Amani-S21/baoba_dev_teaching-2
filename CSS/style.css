@@ -111,7 +111,7 @@ p {
  .enfant {
     width: 50%;
     background-color: bisque;
-    font-size: 2em;
+    /* font-size: 2em; */
  }
 
  html {
@@ -163,25 +163,25 @@ p {
     font : italic bold 30px arial;
  }
 
- div {
-    /* border: 8px solid black; */
+ /* div {
+    /* border: 8px solid black; 
     border-width: 5px;
     border-width: 5px 10px 3px 20px;
     border-style: solid;
     border-style: dashed;
     border-style: double;
-    /* border-style: none; */
+    /* border-style: none;
     border-color: red;
     border-top: 8px solid blue;
     border-right: 8px solid green;
     border-bottom: 8px dashed orange;
     border-left: 8px double blueviolet;
-    /* border-radius: 20px; */
+    /* border-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
- }
+ } */
 
  input {
     outline: 5px solid blue;
@@ -190,4 +190,39 @@ p {
  /* box-shadow : x y flou color */
  div {
     box-shadow: 5px 5px 15px red;
+ }
+
+ div {
+   /* padding: 20px 40px; */
+   /* padding: 10px 20px 30px; */
+   /* padding: 10px 20px 30px 40px; */
+   /* padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 30px;
+   padding-left: 40px; */
+
+   /* margin : 20px; */
+   /* margin: 20px 40px; */
+   /* margin: 10px 20px 30px;
+   margin: 10px 20px 30px 40px;
+   margin-top: 10px;
+   margin-right: 20px;
+   margin-bottom: 30px;
+   margin-left: 4opx; */
+
+   /* margin: auto; */
+ }
+/* 
+ largeur totale = width + padding + border */
+
+ div {
+   width: 300px;
+   padding: 20px;
+   border: 5px solid black;
+ }
+
+ /* la largeur reelle sear : 300  */
+
+ * {
+   box-sizing : border-box;
  }
