@@ -98,43 +98,43 @@ p {
     /* background: linear-gradient(to right, red, blue);
     background: radial-gradient(red, yellow);
     font-size: 80px;
- } */
+ }
 
- .parent {
-    /* width: 800px; */
+ /* .parent {
+    /* width: 800px;
     background-color: blueviolet;
     font-size: 80px;
     width: 50vw;
     height: 100vh;
- }
+ } */
 
- .enfant {
+ /* .enfant {
     width: 50%;
     background-color: bisque;
-    /* font-size: 2em; */
- }
+    /* font-size: 2em;
+ } */
 
- html {
+ /* html {
     font-size: 100px;
- }
+ } */
 
- section {
+ /* section {
     height: 100vh;
  }
 
  h1 {
-    /* font-size: 2rem; */
+    /* font-size: 2rem;
     font-size: 5vw;
  }
  
  selecteur {
     font-family: nom_de_la_police;
- }
+ } */
 
  body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-style: italic;
+    /* font-style: italic; */
     text-align: center;
     /* text-decoration: underline;
     text-decoration: line-through; */
@@ -216,7 +216,7 @@ p {
  largeur totale = width + padding + border */
 
  div {
-   width: 300px;
+   /* width: 300px; */
    padding: 20px;
    border: 5px solid black;
    
@@ -226,4 +226,24 @@ p {
 
  * {
    box-sizing : border-box;
+ }
+
+ .parent {
+   /* width: 800px;
+   width: 50%;
+   height: 800px;
+   height: 50vh; */
+   /* min-width: 300px;
+   max-width: 1200px; */
+   width: 90%;
+   max-width: 1200px;
+   margin: auto;
+
+   min-height: 300px;
+   max-height: 400px;
+
+   overflow: visible;
+   overflow: hidden;
+   overflow: scroll;
+   overflow: auto;
  }

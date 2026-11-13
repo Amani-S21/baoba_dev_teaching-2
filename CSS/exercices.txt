@@ -1,0 +1,19 @@
+Créez une page contenant un conteneur div
+
+Le conteneur doit :
+
+avoir une largeur de 90%
+
+avoir une largeur maximale de 1500px
+
+avoir une hauteur minimale de 300px
+
+être centré horizontalement
+
+avoir un padding de 20px
+
+avoir une bordure
+
+contenir une image responsive
+
+Testez ensuite votre page en réduisant et en agrandissant la fenêtre du navigateur
